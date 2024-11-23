@@ -2,13 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package bank;
+package bank.view;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
+
+import bank.model.Account;
+import bank.model.Transaction;
+import bank.model.TransactionType;
+import bank.model.User;
 
 /**
  *
@@ -325,10 +330,12 @@ public class BankFrame extends javax.swing.JFrame {
                 "ID", "Fullname", "Age", "Number of Accounts"
             }
         ) {
+            @SuppressWarnings("rawtypes")
             Class[] types = new Class [] {
                 java.lang.Long.class, java.lang.String.class, java.lang.Integer.class, java.lang.Integer.class
             };
 
+            @SuppressWarnings("rawtypes")
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
@@ -388,10 +395,12 @@ public class BankFrame extends javax.swing.JFrame {
                 "ID", "User ID", "Balance"
             }
         ) {
+            @SuppressWarnings("rawtypes")
             Class[] types = new Class [] {
                 java.lang.String.class, java.lang.Long.class, java.lang.Double.class
             };
 
+            @SuppressWarnings("rawtypes")
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
@@ -449,6 +458,7 @@ public class BankFrame extends javax.swing.JFrame {
                 "Type", "Source Account ID", "Destination Account ID", "Amount"
             }
         ) {
+            @SuppressWarnings("rawtypes")
             Class[] types = new Class [] {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class
             };
@@ -456,6 +466,7 @@ public class BankFrame extends javax.swing.JFrame {
                 false, false, false, false
             };
 
+            @SuppressWarnings("rawtypes")
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
@@ -681,6 +692,7 @@ public class BankFrame extends javax.swing.JFrame {
         DefaultTableModel model = (DefaultTableModel) jTable3.getModel();
         model.setRowCount(0);
         
+        @SuppressWarnings("unchecked")
         ArrayList<Transaction> transactionsCopy = (ArrayList<Transaction>) this.transactions.clone();
         Collections.reverse(transactionsCopy);
         
