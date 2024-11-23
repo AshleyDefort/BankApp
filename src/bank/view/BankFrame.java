@@ -44,282 +44,282 @@ public class BankFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTabbedPane1 = new javax.swing.JTabbedPane();
-        jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jTextField5 = new javax.swing.JTextField();
-        jTextField6 = new javax.swing.JTextField();
-        jButton2 = new javax.swing.JButton();
-        jPanel3 = new javax.swing.JPanel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jTextField7 = new javax.swing.JTextField();
-        jTextField8 = new javax.swing.JTextField();
-        jTextField9 = new javax.swing.JTextField();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jButton3 = new javax.swing.JButton();
-        jPanel4 = new javax.swing.JPanel();
-        jLabel14 = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
-        jButton4 = new javax.swing.JButton();
-        jPanel5 = new javax.swing.JPanel();
-        jLabel15 = new javax.swing.JLabel();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
-        jButton5 = new javax.swing.JButton();
-        jPanel6 = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTable3 = new javax.swing.JTable();
-        jButton6 = new javax.swing.JButton();
+        pnlMain = new javax.swing.JTabbedPane();
+        pnlRegisterUser = new javax.swing.JPanel();
+        lblRegisterUser = new javax.swing.JLabel();
+        lblID = new javax.swing.JLabel();
+        lblFirstName = new javax.swing.JLabel();
+        lblLastName = new javax.swing.JLabel();
+        lblAge = new javax.swing.JLabel();
+        txtID = new javax.swing.JTextField();
+        txtFirstName = new javax.swing.JTextField();
+        txtLastName = new javax.swing.JTextField();
+        txtAge = new javax.swing.JTextField();
+        btnRegisterUser = new javax.swing.JButton();
+        pnlCreateAccount = new javax.swing.JPanel();
+        lblCreateAccount = new javax.swing.JLabel();
+        lblUserID = new javax.swing.JLabel();
+        lblInitialBalance = new javax.swing.JLabel();
+        txtUserID = new javax.swing.JTextField();
+        txtInitialBalance = new javax.swing.JTextField();
+        btnCreateAccount = new javax.swing.JButton();
+        pnlMakeTransaction = new javax.swing.JPanel();
+        lblMakeTransaction = new javax.swing.JLabel();
+        lblType = new javax.swing.JLabel();
+        lblSourceAccount = new javax.swing.JLabel();
+        lblDestinationAccount = new javax.swing.JLabel();
+        lblAmount = new javax.swing.JLabel();
+        txtSourceAccount = new javax.swing.JTextField();
+        txtDestinationAccount = new javax.swing.JTextField();
+        txtAmount = new javax.swing.JTextField();
+        cmbTransactionType = new javax.swing.JComboBox<>();
+        btnMakeTransaction = new javax.swing.JButton();
+        pnlUserList = new javax.swing.JPanel();
+        lblListUsers = new javax.swing.JLabel();
+        scrlUserList = new javax.swing.JScrollPane();
+        tblUsers = new javax.swing.JTable();
+        btnRefreshUserList = new javax.swing.JButton();
+        pnlAccountList = new javax.swing.JPanel();
+        lblListAccounts = new javax.swing.JLabel();
+        scrlAccountList = new javax.swing.JScrollPane();
+        tblAccounts = new javax.swing.JTable();
+        btnRefreshAccountList = new javax.swing.JButton();
+        pnlTransactionList = new javax.swing.JPanel();
+        lblListTransactions = new javax.swing.JLabel();
+        scrlTransactionList = new javax.swing.JScrollPane();
+        tblTransactions = new javax.swing.JTable();
+        btnRefreshTransactionList = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel1.setText("Register User");
+        lblRegisterUser.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblRegisterUser.setText("Register User");
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel2.setText("ID");
+        lblID.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblID.setText("ID");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel3.setText("Firstname");
+        lblFirstName.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblFirstName.setText("Firstname");
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel4.setText("Lastname");
+        lblLastName.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblLastName.setText("Lastname");
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel5.setText("Age");
+        lblAge.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblAge.setText("Age");
 
-        jButton1.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
-        jButton1.setText("Register");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnRegisterUser.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        btnRegisterUser.setText("Register");
+        btnRegisterUser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnRegisterUserActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlRegisterUserLayout = new javax.swing.GroupLayout(pnlRegisterUser);
+        pnlRegisterUser.setLayout(pnlRegisterUserLayout);
+        pnlRegisterUserLayout.setHorizontalGroup(
+            pnlRegisterUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlRegisterUserLayout.createSequentialGroup()
+                .addGroup(pnlRegisterUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlRegisterUserLayout.createSequentialGroup()
                         .addGap(239, 239, 239)
-                        .addComponent(jLabel1)
+                        .addComponent(lblRegisterUser)
                         .addGap(0, 270, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGroup(pnlRegisterUserLayout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel2))
+                        .addGroup(pnlRegisterUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblFirstName)
+                            .addComponent(lblLastName)
+                            .addComponent(lblAge)
+                            .addComponent(lblID))
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jTextField3, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jTextField4, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jTextField2, javax.swing.GroupLayout.Alignment.TRAILING))))
+                        .addGroup(pnlRegisterUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtID, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(txtLastName, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(txtAge, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(txtFirstName, javax.swing.GroupLayout.Alignment.TRAILING))))
                 .addContainerGap())
-            .addGroup(jPanel1Layout.createSequentialGroup()
+            .addGroup(pnlRegisterUserLayout.createSequentialGroup()
                 .addGap(259, 259, 259)
-                .addComponent(jButton1)
+                .addComponent(btnRegisterUser)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        pnlRegisterUserLayout.setVerticalGroup(
+            pnlRegisterUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlRegisterUserLayout.createSequentialGroup()
                 .addGap(12, 12, 12)
-                .addComponent(jLabel1)
+                .addComponent(lblRegisterUser)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2))
+                .addGroup(pnlRegisterUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblID))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3))
+                .addGroup(pnlRegisterUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtFirstName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblFirstName))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4))
+                .addGroup(pnlRegisterUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtLastName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblLastName))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5))
+                .addGroup(pnlRegisterUserLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtAge, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblAge))
                 .addGap(18, 18, 18)
-                .addComponent(jButton1)
+                .addComponent(btnRegisterUser)
                 .addContainerGap(83, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Register User", jPanel1);
+        pnlMain.addTab("Register User", pnlRegisterUser);
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel6.setText("Create Account");
+        lblCreateAccount.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblCreateAccount.setText("Create Account");
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel7.setText("User ID");
+        lblUserID.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblUserID.setText("User ID");
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel8.setText("Initial Balance");
+        lblInitialBalance.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblInitialBalance.setText("Initial Balance");
 
-        jButton2.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
-        jButton2.setText("Create");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btnCreateAccount.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        btnCreateAccount.setText("Create");
+        btnCreateAccount.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btnCreateAccountActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlCreateAccountLayout = new javax.swing.GroupLayout(pnlCreateAccount);
+        pnlCreateAccount.setLayout(pnlCreateAccountLayout);
+        pnlCreateAccountLayout.setHorizontalGroup(
+            pnlCreateAccountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlCreateAccountLayout.createSequentialGroup()
+                .addGroup(pnlCreateAccountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlCreateAccountLayout.createSequentialGroup()
                         .addGap(238, 238, 238)
-                        .addComponent(jLabel6))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(lblCreateAccount))
+                    .addGroup(pnlCreateAccountLayout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel8))
+                        .addGroup(pnlCreateAccountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblUserID)
+                            .addComponent(lblInitialBalance))
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField6)
-                            .addComponent(jTextField5, javax.swing.GroupLayout.DEFAULT_SIZE, 521, Short.MAX_VALUE))))
+                        .addGroup(pnlCreateAccountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtInitialBalance)
+                            .addComponent(txtUserID, javax.swing.GroupLayout.DEFAULT_SIZE, 521, Short.MAX_VALUE))))
                 .addContainerGap())
-            .addGroup(jPanel2Layout.createSequentialGroup()
+            .addGroup(pnlCreateAccountLayout.createSequentialGroup()
                 .addGap(265, 265, 265)
-                .addComponent(jButton2)
+                .addComponent(btnCreateAccount)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        pnlCreateAccountLayout.setVerticalGroup(
+            pnlCreateAccountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlCreateAccountLayout.createSequentialGroup()
                 .addGap(12, 12, 12)
-                .addComponent(jLabel6)
+                .addComponent(lblCreateAccount)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel7))
+                .addGroup(pnlCreateAccountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtUserID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblUserID))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8))
+                .addGroup(pnlCreateAccountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtInitialBalance, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblInitialBalance))
                 .addGap(18, 18, 18)
-                .addComponent(jButton2)
+                .addComponent(btnCreateAccount)
                 .addContainerGap(163, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Create Account", jPanel2);
+        pnlMain.addTab("Create Account", pnlCreateAccount);
 
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel9.setText("Make Transaction");
+        lblMakeTransaction.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblMakeTransaction.setText("Make Transaction");
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel10.setText("Type");
+        lblType.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblType.setText("Type");
 
-        jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel11.setText("Source Account");
+        lblSourceAccount.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblSourceAccount.setText("Source Account");
 
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel12.setText("Destination Account");
+        lblDestinationAccount.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblDestinationAccount.setText("Destination Account");
 
-        jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel13.setText("Amount");
+        lblAmount.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        lblAmount.setText("Amount");
 
-        jTextField8.setToolTipText("");
+        txtDestinationAccount.setToolTipText("");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Deposit", "Withdraw", "Transfer" }));
+        cmbTransactionType.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Deposit", "Withdraw", "Transfer" }));
 
-        jButton3.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
-        jButton3.setText("Execute");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        btnMakeTransaction.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        btnMakeTransaction.setText("Execute");
+        btnMakeTransaction.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                btnMakeTransactionActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlMakeTransactionLayout = new javax.swing.GroupLayout(pnlMakeTransaction);
+        pnlMakeTransaction.setLayout(pnlMakeTransactionLayout);
+        pnlMakeTransactionLayout.setHorizontalGroup(
+            pnlMakeTransactionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlMakeTransactionLayout.createSequentialGroup()
+                .addGroup(pnlMakeTransactionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlMakeTransactionLayout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel10)
-                            .addComponent(jLabel13)
-                            .addComponent(jLabel12)
-                            .addComponent(jLabel11))
+                        .addGroup(pnlMakeTransactionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblType)
+                            .addComponent(lblAmount)
+                            .addComponent(lblDestinationAccount)
+                            .addComponent(lblSourceAccount))
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField8, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jTextField7, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jComboBox1, 0, 485, Short.MAX_VALUE)
-                            .addComponent(jTextField9, javax.swing.GroupLayout.Alignment.TRAILING)))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGroup(pnlMakeTransactionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtDestinationAccount, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(txtSourceAccount, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(cmbTransactionType, 0, 485, Short.MAX_VALUE)
+                            .addComponent(txtAmount, javax.swing.GroupLayout.Alignment.TRAILING)))
+                    .addGroup(pnlMakeTransactionLayout.createSequentialGroup()
                         .addGap(227, 227, 227)
-                        .addComponent(jLabel9)))
+                        .addComponent(lblMakeTransaction)))
                 .addContainerGap())
-            .addGroup(jPanel3Layout.createSequentialGroup()
+            .addGroup(pnlMakeTransactionLayout.createSequentialGroup()
                 .addGap(255, 255, 255)
-                .addComponent(jButton3)
+                .addComponent(btnMakeTransaction)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
+        pnlMakeTransactionLayout.setVerticalGroup(
+            pnlMakeTransactionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlMakeTransactionLayout.createSequentialGroup()
                 .addGap(12, 12, 12)
-                .addComponent(jLabel9)
+                .addComponent(lblMakeTransaction)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel10))
+                .addGroup(pnlMakeTransactionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(cmbTransactionType, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblType))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel11))
+                .addGroup(pnlMakeTransactionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtSourceAccount, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblSourceAccount))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel12))
+                .addGroup(pnlMakeTransactionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtDestinationAccount, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblDestinationAccount))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel13))
+                .addGroup(pnlMakeTransactionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtAmount, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblAmount))
                 .addGap(18, 18, 18)
-                .addComponent(jButton3)
+                .addComponent(btnMakeTransaction)
                 .addContainerGap(83, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Make Transaction", jPanel3);
+        pnlMain.addTab("Make Transaction", pnlMakeTransaction);
 
-        jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel14.setText("List Users");
+        lblListUsers.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblListUsers.setText("List Users");
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        tblUsers.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -330,61 +330,59 @@ public class BankFrame extends javax.swing.JFrame {
                 "ID", "Fullname", "Age", "Number of Accounts"
             }
         ) {
-            @SuppressWarnings("rawtypes")
             Class[] types = new Class [] {
                 java.lang.Long.class, java.lang.String.class, java.lang.Integer.class, java.lang.Integer.class
             };
 
-            @SuppressWarnings("rawtypes")
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
         });
-        jScrollPane2.setViewportView(jTable1);
+        scrlUserList.setViewportView(tblUsers);
 
-        jButton4.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
-        jButton4.setText("Refresh");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        btnRefreshUserList.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        btnRefreshUserList.setText("Refresh");
+        btnRefreshUserList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                btnRefreshUserListActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlUserListLayout = new javax.swing.GroupLayout(pnlUserList);
+        pnlUserList.setLayout(pnlUserListLayout);
+        pnlUserListLayout.setHorizontalGroup(
+            pnlUserListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlUserListLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 616, Short.MAX_VALUE)
+                .addGroup(pnlUserListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlUserListLayout.createSequentialGroup()
+                        .addComponent(scrlUserList, javax.swing.GroupLayout.DEFAULT_SIZE, 616, Short.MAX_VALUE)
                         .addContainerGap())
-                    .addGroup(jPanel4Layout.createSequentialGroup()
+                    .addGroup(pnlUserListLayout.createSequentialGroup()
                         .addGap(62, 62, 62)
-                        .addComponent(jLabel14)
+                        .addComponent(lblListUsers)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton4)
+                        .addComponent(btnRefreshUserList)
                         .addGap(88, 88, 88))))
         );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        pnlUserListLayout.setVerticalGroup(
+            pnlUserListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlUserListLayout.createSequentialGroup()
                 .addGap(12, 12, 12)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel14)
-                    .addComponent(jButton4))
+                .addGroup(pnlUserListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblListUsers)
+                    .addComponent(btnRefreshUserList))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
+                .addComponent(scrlUserList, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("List Users", jPanel4);
+        pnlMain.addTab("List Users", pnlUserList);
 
-        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel15.setText("List Accounts");
+        lblListAccounts.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblListAccounts.setText("List Accounts");
 
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+        tblAccounts.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
                 {null, null, null},
@@ -395,59 +393,57 @@ public class BankFrame extends javax.swing.JFrame {
                 "ID", "User ID", "Balance"
             }
         ) {
-            @SuppressWarnings("rawtypes")
             Class[] types = new Class [] {
                 java.lang.String.class, java.lang.Long.class, java.lang.Double.class
             };
 
-            @SuppressWarnings("rawtypes")
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
         });
-        jScrollPane3.setViewportView(jTable2);
+        scrlAccountList.setViewportView(tblAccounts);
 
-        jButton5.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
-        jButton5.setText("Refresh");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        btnRefreshAccountList.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        btnRefreshAccountList.setText("Refresh");
+        btnRefreshAccountList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                btnRefreshAccountListActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlAccountListLayout = new javax.swing.GroupLayout(pnlAccountList);
+        pnlAccountList.setLayout(pnlAccountListLayout);
+        pnlAccountListLayout.setHorizontalGroup(
+            pnlAccountListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlAccountListLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 616, Short.MAX_VALUE)
+                .addComponent(scrlAccountList, javax.swing.GroupLayout.DEFAULT_SIZE, 616, Short.MAX_VALUE)
                 .addContainerGap())
-            .addGroup(jPanel5Layout.createSequentialGroup()
+            .addGroup(pnlAccountListLayout.createSequentialGroup()
                 .addGap(66, 66, 66)
-                .addComponent(jLabel15)
+                .addComponent(lblListAccounts)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton5)
+                .addComponent(btnRefreshAccountList)
                 .addGap(90, 90, 90))
         );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
+        pnlAccountListLayout.setVerticalGroup(
+            pnlAccountListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlAccountListLayout.createSequentialGroup()
                 .addGap(12, 12, 12)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel15)
-                    .addComponent(jButton5))
+                .addGroup(pnlAccountListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblListAccounts)
+                    .addComponent(btnRefreshAccountList))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
+                .addComponent(scrlAccountList, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("List Accounts", jPanel5);
+        pnlMain.addTab("List Accounts", pnlAccountList);
 
-        jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel16.setText("List Transactions");
+        lblListTransactions.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblListTransactions.setText("List Transactions");
 
-        jTable3.setModel(new javax.swing.table.DefaultTableModel(
+        tblTransactions.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -458,7 +454,6 @@ public class BankFrame extends javax.swing.JFrame {
                 "Type", "Source Account ID", "Destination Account ID", "Amount"
             }
         ) {
-            @SuppressWarnings("rawtypes")
             Class[] types = new Class [] {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class
             };
@@ -466,7 +461,6 @@ public class BankFrame extends javax.swing.JFrame {
                 false, false, false, false
             };
 
-            @SuppressWarnings("rawtypes")
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
@@ -475,83 +469,83 @@ public class BankFrame extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(jTable3);
+        scrlTransactionList.setViewportView(tblTransactions);
 
-        jButton6.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
-        jButton6.setText("Refresh");
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        btnRefreshTransactionList.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        btnRefreshTransactionList.setText("Refresh");
+        btnRefreshTransactionList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                btnRefreshTransactionListActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlTransactionListLayout = new javax.swing.GroupLayout(pnlTransactionList);
+        pnlTransactionList.setLayout(pnlTransactionListLayout);
+        pnlTransactionListLayout.setHorizontalGroup(
+            pnlTransactionListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlTransactionListLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 616, Short.MAX_VALUE)
+                .addComponent(scrlTransactionList, javax.swing.GroupLayout.DEFAULT_SIZE, 616, Short.MAX_VALUE)
                 .addContainerGap())
-            .addGroup(jPanel6Layout.createSequentialGroup()
+            .addGroup(pnlTransactionListLayout.createSequentialGroup()
                 .addGap(64, 64, 64)
-                .addComponent(jLabel16)
+                .addComponent(lblListTransactions)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton6)
+                .addComponent(btnRefreshTransactionList)
                 .addGap(89, 89, 89))
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        pnlTransactionListLayout.setVerticalGroup(
+            pnlTransactionListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlTransactionListLayout.createSequentialGroup()
                 .addGap(12, 12, 12)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel16)
-                    .addComponent(jButton6))
+                .addGroup(pnlTransactionListLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblListTransactions)
+                    .addComponent(btnRefreshTransactionList))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
+                .addComponent(scrlTransactionList, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("List Transactions", jPanel6);
+        pnlMain.addTab("List Transactions", pnlTransactionList);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1)
+            .addComponent(pnlMain)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 356, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(pnlMain, javax.swing.GroupLayout.PREFERRED_SIZE, 356, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnRegisterUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegisterUserActionPerformed
         // TODO add your handling code here:
         try {
-            int id = Integer.parseInt(jTextField1.getText());
-            String firstname = jTextField2.getText();
-            String lastname = jTextField3.getText();
-            int age = Integer.parseInt(jTextField4.getText());
+            int id = Integer.parseInt(txtID.getText());
+            String firstname = txtFirstName.getText();
+            String lastname = txtLastName.getText();
+            int age = Integer.parseInt(txtAge.getText());
             
             this.users.add(new User(id, firstname, lastname, age));
             
-            jTextField1.setText("");
-            jTextField2.setText("");
-            jTextField3.setText("");
-            jTextField4.setText("");
+            txtID.setText("");
+            txtFirstName.setText("");
+            txtLastName.setText("");
+            txtAge.setText("");
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, "Error", "Error", JOptionPane.ERROR_MESSAGE);
         }
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnRegisterUserActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btnCreateAccountActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCreateAccountActionPerformed
         // TODO add your handling code here:
         try {
-            int userId = Integer.parseInt(jTextField5.getText());
-            double initialBalance = Double.parseDouble(jTextField6.getText());
+            int userId = Integer.parseInt(txtUserID.getText());
+            double initialBalance = Double.parseDouble(txtInitialBalance.getText());
             
             User selectedUser = null;
             for (User user : this.users) {
@@ -570,22 +564,22 @@ public class BankFrame extends javax.swing.JFrame {
                 
                 this.accounts.add(new Account(accountId, selectedUser, initialBalance));
                 
-                jTextField5.setText("");
-                jTextField6.setText("");
+                txtUserID.setText("");
+                txtInitialBalance.setText("");
             }
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, "Error", "Error", JOptionPane.ERROR_MESSAGE);
         }
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btnCreateAccountActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void btnMakeTransactionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMakeTransactionActionPerformed
         // TODO add your handling code here:
         try {
-            String type = jComboBox1.getItemAt(jComboBox1.getSelectedIndex());
+            String type = cmbTransactionType.getItemAt(cmbTransactionType.getSelectedIndex());
             switch (type) {
                 case "Deposit": {
-                    String destinationAccountId = jTextField8.getText();
-                    double amount = Double.parseDouble(jTextField9.getText());
+                    String destinationAccountId = txtDestinationAccount.getText();
+                    double amount = Double.parseDouble(txtAmount.getText());
                     
                     Account destinationAccount = null;
                     for (Account account : this.accounts) {
@@ -598,15 +592,15 @@ public class BankFrame extends javax.swing.JFrame {
                         
                         this.transactions.add(new Transaction(TransactionType.DEPOSIT, null, destinationAccount, amount));
                         
-                        jTextField7.setText("");
-                        jTextField8.setText("");
-                        jTextField9.setText("");
+                        txtSourceAccount.setText("");
+                        txtDestinationAccount.setText("");
+                        txtAmount.setText("");
                     }
                     break;
                 }
                 case "Withdraw": {
-                    String sourceAccountId = jTextField7.getText();
-                    double amount = Double.parseDouble(jTextField9.getText());
+                    String sourceAccountId = txtSourceAccount.getText();
+                    double amount = Double.parseDouble(txtAmount.getText());
                     
                     Account sourceAccount = null;
                     for (Account account : this.accounts) {
@@ -617,16 +611,16 @@ public class BankFrame extends javax.swing.JFrame {
                     if (sourceAccount != null && sourceAccount.withdraw(amount)) {
                         this.transactions.add(new Transaction(TransactionType.WITHDRAW, sourceAccount, null, amount));
                         
-                        jTextField7.setText("");
-                        jTextField8.setText("");
-                        jTextField9.setText("");
+                        txtSourceAccount.setText("");
+                        txtDestinationAccount.setText("");
+                        txtAmount.setText("");
                     }
                     break;
                 }
                 case "Transfer": {
-                    String sourceAccountId = jTextField7.getText();
-                    String destinationAccountId = jTextField8.getText();
-                    double amount = Double.parseDouble(jTextField9.getText());
+                    String sourceAccountId = txtSourceAccount.getText();
+                    String destinationAccountId = txtDestinationAccount.getText();
+                    double amount = Double.parseDouble(txtAmount.getText());
                     
                     Account sourceAccount = null;
                     Account destinationAccount = null;
@@ -645,27 +639,27 @@ public class BankFrame extends javax.swing.JFrame {
                         
                         this.transactions.add(new Transaction(TransactionType.TRANSFER, sourceAccount, destinationAccount, amount));
                         
-                        jTextField7.setText("");
-                        jTextField8.setText("");
-                        jTextField9.setText("");
+                        txtSourceAccount.setText("");
+                        txtDestinationAccount.setText("");
+                        txtAmount.setText("");
                     }
                     break;
                 }
                 default: {
-                    jTextField7.setText("");
-                    jTextField8.setText("");
-                    jTextField9.setText("");
+                    txtSourceAccount.setText("");
+                    txtDestinationAccount.setText("");
+                    txtAmount.setText("");
                     break;
                 }
             }
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, "Error", "Error", JOptionPane.ERROR_MESSAGE);
         }
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_btnMakeTransactionActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void btnRefreshUserListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRefreshUserListActionPerformed
         // TODO add your handling code here:
-        DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
+        DefaultTableModel model = (DefaultTableModel) tblUsers.getModel();
         model.setRowCount(0);
         
         this.users.sort((obj1, obj2) -> (obj1.getId() - obj2.getId()));
@@ -673,11 +667,11 @@ public class BankFrame extends javax.swing.JFrame {
         for (User user : this.users) {
             model.addRow(new Object[]{user.getId(), user.getFirstname() + " " + user.getLastname(), user.getAge(), user.getNumAccounts()});
         }
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_btnRefreshUserListActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void btnRefreshAccountListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRefreshAccountListActionPerformed
         // TODO add your handling code here:
-        DefaultTableModel model = (DefaultTableModel) jTable2.getModel();
+        DefaultTableModel model = (DefaultTableModel) tblAccounts.getModel();
         model.setRowCount(0);
         
         this.accounts.sort((obj1, obj2) -> (obj1.getId().compareTo(obj2.getId())));
@@ -685,11 +679,11 @@ public class BankFrame extends javax.swing.JFrame {
         for (Account account : this.accounts) {
             model.addRow(new Object[]{account.getId(), account.getOwner().getId(), account.getBalance()});
         }
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_btnRefreshAccountListActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void btnRefreshTransactionListActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRefreshTransactionListActionPerformed
         // TODO add your handling code here:
-        DefaultTableModel model = (DefaultTableModel) jTable3.getModel();
+        DefaultTableModel model = (DefaultTableModel) tblTransactions.getModel();
         model.setRowCount(0);
         
         @SuppressWarnings("unchecked")
@@ -699,7 +693,7 @@ public class BankFrame extends javax.swing.JFrame {
         for (Transaction transaction : transactionsCopy) {
             model.addRow(new Object[]{transaction.getType().name(), (transaction.getSourceAccount() != null ? transaction.getSourceAccount().getId() : "None"), (transaction.getDestinationAccount()!= null ? transaction.getDestinationAccount().getId() : "None"), transaction.getAmount()});
         }
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_btnRefreshTransactionListActionPerformed
 
     /**
      * @param args the command line arguments
@@ -737,50 +731,50 @@ public class BankFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTable jTable2;
-    private javax.swing.JTable jTable3;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField6;
-    private javax.swing.JTextField jTextField7;
-    private javax.swing.JTextField jTextField8;
-    private javax.swing.JTextField jTextField9;
+    private javax.swing.JButton btnCreateAccount;
+    private javax.swing.JButton btnMakeTransaction;
+    private javax.swing.JButton btnRefreshAccountList;
+    private javax.swing.JButton btnRefreshTransactionList;
+    private javax.swing.JButton btnRefreshUserList;
+    private javax.swing.JButton btnRegisterUser;
+    private javax.swing.JComboBox<String> cmbTransactionType;
+    private javax.swing.JLabel lblAge;
+    private javax.swing.JLabel lblAmount;
+    private javax.swing.JLabel lblCreateAccount;
+    private javax.swing.JLabel lblDestinationAccount;
+    private javax.swing.JLabel lblFirstName;
+    private javax.swing.JLabel lblID;
+    private javax.swing.JLabel lblInitialBalance;
+    private javax.swing.JLabel lblLastName;
+    private javax.swing.JLabel lblListAccounts;
+    private javax.swing.JLabel lblListTransactions;
+    private javax.swing.JLabel lblListUsers;
+    private javax.swing.JLabel lblMakeTransaction;
+    private javax.swing.JLabel lblRegisterUser;
+    private javax.swing.JLabel lblSourceAccount;
+    private javax.swing.JLabel lblType;
+    private javax.swing.JLabel lblUserID;
+    private javax.swing.JPanel pnlAccountList;
+    private javax.swing.JPanel pnlCreateAccount;
+    private javax.swing.JTabbedPane pnlMain;
+    private javax.swing.JPanel pnlMakeTransaction;
+    private javax.swing.JPanel pnlRegisterUser;
+    private javax.swing.JPanel pnlTransactionList;
+    private javax.swing.JPanel pnlUserList;
+    private javax.swing.JScrollPane scrlAccountList;
+    private javax.swing.JScrollPane scrlTransactionList;
+    private javax.swing.JScrollPane scrlUserList;
+    private javax.swing.JTable tblAccounts;
+    private javax.swing.JTable tblTransactions;
+    private javax.swing.JTable tblUsers;
+    private javax.swing.JTextField txtAge;
+    private javax.swing.JTextField txtAmount;
+    private javax.swing.JTextField txtDestinationAccount;
+    private javax.swing.JTextField txtFirstName;
+    private javax.swing.JTextField txtID;
+    private javax.swing.JTextField txtInitialBalance;
+    private javax.swing.JTextField txtLastName;
+    private javax.swing.JTextField txtSourceAccount;
+    private javax.swing.JTextField txtUserID;
     // End of variables declaration//GEN-END:variables
 }
