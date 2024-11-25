@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package bank.view;
+package bank.views;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,15 +10,14 @@ import java.util.Random;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-import bank.model.Account;
-import bank.model.Transaction;
-import bank.model.TransactionType;
-import bank.model.User;
+import bank.controllers.BankController;
+import bank.controllers.utils.Response;
 
 /**
  *
  * @author edangulo
  */
+@SuppressWarnings("rawtypes")
 public class BankFrame extends javax.swing.JFrame {
     
     private ArrayList<Account> accounts;
