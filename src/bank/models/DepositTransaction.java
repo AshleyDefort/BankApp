@@ -20,4 +20,25 @@ public class DepositTransaction implements Transaction {
     public long getTimestamp() {
         return timestamp;
     }
+
+    @Override
+    public String getAccount() {
+        return account.getId();
+    }
+    
+    @Override
+    public double getAmount() {
+        return amount;
+    }
+
+    @Override
+    public String getTypeString() {
+        return "DEPOSIT";
+    }
+
+    @Override
+    public String getDestinationAccount() {
+        return null;
+    }
+
 }

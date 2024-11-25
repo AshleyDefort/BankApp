@@ -6,6 +6,7 @@ import bank.models.storage.Storage;
 import bank.controllers.utils.Response;
 import bank.controllers.utils.Status;
 
+import java.util.List;
 import java.util.regex.Pattern;
 
 public class AccountController {
@@ -163,5 +164,15 @@ public class AccountController {
                 (int) (Math.random() * 100));
         } while (storage.getAccount(id) != null);
         return id;
+    }
+
+    public static Response getAllAccounts(){
+        try {
+            Storage storage = Storage.getInstance();
+            List<Account> accounts = storage.getAccounts();
+            return new Response("Accounts found", accounts, Status.OK);
+        } catch (Exception ex) {
+            return new Response("Unexpected error", Status.INTERNAL_SERVER_ERROR);
+        }
     }
 }

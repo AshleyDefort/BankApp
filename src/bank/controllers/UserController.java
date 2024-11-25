@@ -12,12 +12,12 @@ import java.util.Optional;
 public class UserController {
 
     // Crear usuario
-    public static Response createUser(String id, String firstname, String lastname, String age) {
+    public static Response createUser(int id, String firstname, String lastname, String age) {
         try {
             // Validación del ID
             int userId;
             try {
-                userId = Integer.parseInt(id);
+                userId = id;
                 if (userId < 0 || String.valueOf(userId).length() > 9) {
                     return new Response("User ID must be a positive integer with up to 9 digits", Status.BAD_REQUEST);
                 }

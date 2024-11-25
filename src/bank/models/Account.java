@@ -24,6 +24,9 @@ public class Account {
         return owner;
     }
 
+    public int getOwnerId() {
+        return owner.getId();
+    }
     public double getBalance() {
         return balance;
     }

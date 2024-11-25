@@ -3,6 +3,7 @@ package bank.controllers;
 import bank.models.Account;
 import bank.models.Transaction;
 import bank.models.TransferTransaction;
+import bank.models.storage.Storage;
 import bank.models.DepositTransaction;
 import bank.controllers.utils.Response;
 import bank.controllers.utils.Status;
@@ -91,7 +92,14 @@ public class TransactionController {
     }
 
     // Obtener transacciones ordenadas por antigüedad
-    public static List<Transaction> getTransactions() {
-        return transactions;
+    public static Response getTransactions() {
+        try {
+          Storage storage = Storage.getInstance();
+          List<Transaction> transactions = storage.getTransactions();
+          transactions.sort(Comparator.comparingLong(Transaction::getTimestamp).reversed());
+          return new Response("Transactions found", transactions, Status.OK);
+        } catch (Exception ex) {
+            return new Response("Unexpected error", Status.INTERNAL_SERVER_ERROR);
+        }
     }
 }

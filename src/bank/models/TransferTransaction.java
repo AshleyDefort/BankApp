@@ -27,4 +27,26 @@ public class TransferTransaction implements Transaction {
     public long getTimestamp() {
         return timestamp;  // Retornar el timestamp
     }
+
+    @Override
+    public String getAccount() {
+        return sourceAccount.getId();
+    }
+
+    @Override
+    public double getAmount() {
+        return amount;
+    }
+
+    @Override
+    public String getTypeString() {
+        return "TRANSFER";
+    }
+
+    @Override
+    public String getDestinationAccount() {
+        return destinationAccount.getId();
+    }
+
+
 }
