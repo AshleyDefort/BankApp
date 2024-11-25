@@ -36,9 +36,9 @@ public class Storage {
         return true;
     }
 
-    public User getUser(String id) {
+    public User getUser(int id) {
         for (User user : this.users) {
-            if (user.getId() == Integer.parseInt(id)) {
+            if (user.getId() == id) {
                 return user;
             }
         }
